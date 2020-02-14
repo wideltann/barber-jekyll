@@ -24,8 +24,6 @@ layout: default
         <div id="markdown" itemprop="articleBody">
           {{content}}
         </div>
-
-        {% include share.html %}
       </div>
     </div>
 
@@ -33,7 +31,6 @@ layout: default
     {% if page.author %}
       <div class="section-padding--none">
         <div class="grid">
-          <hr class="sep"/>
         </div>
       </div>
 
@@ -52,9 +49,6 @@ layout: default
         </div>
       </div>
     {% endif %}
-
-    {% include disqus.html %}
-
   </article>
 </div>
 

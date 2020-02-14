@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Style Guide
 image: /assets/images/placeholder-18.jpg
 ---

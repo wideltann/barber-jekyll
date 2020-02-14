@@ -35,11 +35,9 @@ module Jekyll
             tag2[sort_seq] <=> tag1[sort_seq]
           end
         end
-
-        html = "<ul class=\"footer__tags\">"
+        html = ""
 
         tag_count = 1
-
         tags.each do |tag, count|
           if tag_count > @limit && @limit != 0
             break
@@ -48,7 +46,7 @@ module Jekyll
           tag_count = tag_count + 1
         end
 
-        html << "</ul>"
+        html << ""
       end
 
       private

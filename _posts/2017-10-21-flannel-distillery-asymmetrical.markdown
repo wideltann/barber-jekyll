@@ -1,7 +1,5 @@
 ---
-layout: post
 title: "Flannel Distillery Asymmetrical"
-date: 2017-10-21
 description: 
 image: /assets/images/placeholder-12.jpg
 author: Thomas Vaeth

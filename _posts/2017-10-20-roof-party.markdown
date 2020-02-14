@@ -1,7 +1,5 @@
 ---
-layout: post
 title: "Roof Party"
-date: 2017-10-20
 description: 
 image: /assets/images/placeholder-1.jpg
 author: Thomas Vaeth
