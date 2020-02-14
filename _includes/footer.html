@@ -1,8 +1,12 @@
 <!-- The footer at the very bottom of the screen -->
 <footer class="footer section-padding">
+  <div class="footer__container">
+    <ul class="footer__tags">
+      {% tags_list :threshold => 1, :sort_by => count, :order_by => desc, :limit => 5 %}
+    </ul>
+    
     <center>&copy; {{ site.time | date: '%Y' }} {{ site.name }}</center>
-</footer>
-
+  </div>
 {% if paginator.next_page %}
   <script>
     var maxPages = parseInt('{{ paginator.total_pages }}');
